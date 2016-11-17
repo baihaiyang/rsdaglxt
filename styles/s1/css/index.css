@@ -1,0 +1,45 @@
+.head{
+	background-color: #339900;
+}
+.head_title{
+	height: 100px;
+	line-height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.head_title .title{
+	font-size: 38px;
+	color: #fff;
+	font-weight: bold;
+}
+.head_title .right div{
+	color: #fff;
+	font-size: 16px;
+	padding-left: 30px;
+	cursor: pointer;
+}
+.head_title .shouye{
+	margin-right: 40px;
+	background: url(../images/index/home.png) 1px center no-repeat;
+}
+.head_title .relogin{
+	margin-right: 30px;
+	background: url(../images/index/relogin.png) 1px center no-repeat;	
+}
+.head_title .tuichu{
+	background: url(../images/index/tuichu.png) 1px center no-repeat;	
+}
+.content{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
