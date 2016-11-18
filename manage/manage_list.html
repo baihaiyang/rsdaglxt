@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>人事档案管理系统</title>
+<link rel="stylesheet" type="text/css" href="../styles/s1/css/reset.css">
+<link rel="stylesheet" type="text/css" href="../styles/s1/css/manage.css">
+<script type="text/javascript" src="../common/js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+	<div class="outside">
+		<div class="tab">
+			<ul class="clear">
+				<li class="left tab_active">
+					<a target="manage_iframe" href="shouye.html" class="tab1_1">
+						<span>首页</span>
+					</a>
+				</li>
+				<li class="left">
+					<a target="manage_iframe" href="rygl.html" class="tab2_1">
+						<span>人员管理</span>
+					</a>
+				</li>
+				<li class="left">
+					<a target="manage_iframe" href="qxgl.html" class="tab3_1">
+						<span>权限管理</span>
+					</a>
+				</li>
+				<li class="left">
+					<a target="manage_iframe" href="cxtj.html" class="tab4_1">
+						<span>查询统计</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="manage_iframe">
+			<iframe src="shouye.html" frameborder="0" scrolling="no" name="manage_iframe" width="100%" height="100%" id="manage_iframe"></iframe>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$(function(){
+		// 页面高度
+		function setIfrmae1(){
+			var manage_iframe_h = $(window).height() - $(".tab").height();
+			$(".manage_iframe").height(manage_iframe_h);
+		}
+		setIfrmae1();
+		$(window).resize(setIfrmae1);
+		//点击a标签更改页面
+		$('.tab li a').click(function(){
+			$(this).parent().addClass('tab_active');
+			$(this).parent().siblings().removeClass('tab_active');
+			if($(this).hasClass('tab3_1')){
+				$('#manage_iframe').attr('scrolling', 'yes');
+			}else{
+				$('#manage_iframe').attr('scrolling', 'no');
+			}
+		});
+
+		//判断是不是权限管理
+		/*function checkIsQxgl(){
+			if($('#manage_iframe').attr('src') == 'qxgl.html'){
+				$('#manage_iframe').attr('scrolling', 'yes');
+			}
+		}
+		checkIsQxgl();*/
+	});
+</script>
+</html>

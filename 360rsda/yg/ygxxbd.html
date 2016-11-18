@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gbk">
+<title>档案系统</title>
+<link href="../styles/s1/css/frame.css" type="text/css" rel="stylesheet"/>
+<link href="../styles/s1/css/a2.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+	<div class="a2_title_01_warp">
+    	<p class="a2_title_01">当前位置：人员管理 > 员工信息比对</p>
+    </div>
+	<div class="a2_table_02_warp">
+    	<p class="a2_table_02_title">查询条件</p>
+        <table cellpadding="1" cellspacing="0">
+            <tr>
+            	<td width='25%'>姓名</td>
+				<td width='25%'><input type='text' style='width:98%'/></td>
+            	<td width='25%'>身份证号码</td>
+                <td width='25%'><input type='text' style='width:98%'/></td>
+            </tr>
+			<tr>
+            	<td>条形码</td>
+				<td><input type='text' style='width:98%'/></td>
+            	<td>导入时间</td>
+                <td>
+					<table style='98%'>
+						<tr>
+							<td width='48%'><input type='text' style='width:98%'/></td>
+							<td>至</td>
+							<td width='48%'><input type='text' style='width:98%'/></td>
+						</tr>
+					</table>
+				</td>
+            </tr>
+        </table>
+    </div>
+	<div class="a2_btn_01_warp">
+    	<input type="button" value="查询" class="a2_btn_01">
+		<input type="button" value="重置" class="a2_btn_01">
+    </div>
+    <div class="a2_table_02_warp">
+    	<p class="a2_table_02_title">查询列表</p>
+        <table cellpadding="1" cellspacing="0">
+        	<tr>
+            	<th width="5%">序号</th>
+				<th width="25%">域账号</th>
+            	<th width="25%">身份证号码</th>
+            	<th width="10%">姓名</th>
+            	<th width="10%">条形码</th>
+				<th width="15%">员工号</th>
+            	<th width="0%">操作</th>
+            </tr>
+            <tr>
+            	<td>1</td>
+				<td>zhangxx@360.com.cn</td>
+            	<td>110108198505026325</td>
+                <td>张XX</td>
+                <td>1A2016000001</td>
+				<td>
+					<select>
+					<option>112212312</option>
+					<option>112216812</option>
+					</select>
+				</td>
+                <td><input type="checkbox"></td>
+            </tr>
+			<tr>
+            	<td>1</td>
+				<td>wangxx@360.com.cn</td>
+            	<td>110109198505026325</td>
+                <td>王XX</td>
+                <td>1A2016000002</td>
+				<td>
+					<select>
+					<option>112212312</option>
+					<option>112216812</option>
+					</select>
+				</td>
+                <td><input type="checkbox"></td>
+            </tr>
+			<tr>
+            	<td colspan="7" align="right"><input type="button" value="全选" class="a2_btn_02"></td>
+            </tr>
+        </table>
+    </div>
+	  <div class="a2_btn_01_warp">
+    	<input type="button" value="保存" class="a2_btn_01">
+    </div>
+</body>
+
+</html>

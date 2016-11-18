@@ -42,3 +42,6 @@ textarea {
     width: 0;
     height: 0;
 }
+a{
+    text-decoration: none;
+}

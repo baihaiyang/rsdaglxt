@@ -1,0 +1,88 @@
+/* CSS Document */
+img {
+	border: none;
+	display: block;
+}
+.login_half{
+	width:1280px;
+	height:660px;
+	position:relative;
+	margin:0 auto;
+}
+.login_half img{
+	position:absolute;
+	left:0;
+}
+.login_midd{
+	background:#43970e;
+	height:598px;
+	width:100%;
+	position:absolute;
+	left:0;
+}
+.login {
+	width: 260px;
+	height: 376px;
+	background: #FFFFFF;
+	filter: alpha(opacity=50); 
+	background: rgba(1255,255,255,.5);  
+	position:absolute;
+}
+.head {
+	height: 50px;
+	background: #FFFFFF;
+}
+.loding {
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	position: relative;
+}
+.loding img {
+	top: 12px;
+	display: block;
+}
+.loding span {
+	display: block;
+	position: relative;
+	left: 40px;
+}
+.con {
+	position: relative;
+	margin: 36px 30px 26px;
+}
+.img_1 {
+	background: url(../images/login/login_user.png)  no-repeat left top;
+}
+.img_2 {
+	background: url(../images/login/login_pas.png) no-repeat left top;
+}
+.con table {
+	border-bottom: 1px dashed #666666;
+	margin-bottom: 26px;
+}
+.con table th {
+	text-align: left;
+	padding-left: 20px;
+	color: #666666;
+}
+.user {
+	display: block;
+	margin-bottom: 15px;
+	margin-left: -5px;
+}
+.pas {
+	display: block;
+	margin-bottom: 26px;
+	margin-left: -5px;
+}
+.con table input {
+	width: 180px;
+	height: 30px;
+}
+.btn {
+	width: 202px;
+	height: 44px;
+	background: url(../images/login/login_btn.png) no-repeat left top;
+}

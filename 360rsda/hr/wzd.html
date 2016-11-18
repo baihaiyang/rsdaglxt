@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>完整度编辑</title>
+    <link rel="stylesheet" href="../styles/s1/css/dawzd.css">
+</head>
+<body>
+    <h4 class="da_title">调节档案完整度</h4>   
+    <table class="da_list" cellpadding="1" cellspacing="0">
+        <thead class="odd">
+            <th width="10%">序号</th>
+            <th width="40%">类别名称</th>
+            <th width="20%">是否必要</th>
+            <th width="20%">是否上传</th>
+            <th width="10%">操作</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>员工照片</td>
+                <td>是</td>
+                <td>是</td>
+                <td class="da_disabled">
+                    <input type="checkbox" id="da_up_1" disabled="disabled">
+                    <label class="da_up_disabled" for="da_up_1">已上传</label>
+                </td>
+            </tr>
+            <tr class="odd">
+                <td>2</td>
+                <td>户口本</td>
+                <td>否</td>
+                <td>否</td>
+                <td>
+                    <input type="checkbox" id="da_up_2">
+                    <label for="da_up_2" class="da_up_enabled">已上传</label>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>身份证\港澳台\外籍人员证件</td>
+                <td>是</td>
+                <td>是</td>
+                <td class="da_disabled">
+                    <input type="checkbox" id="da_up_1" disabled="disabled">
+                    <label class="da_up_disabled" for="da_up_1">已上传</label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="button" value="保存完整度" class="da_wzd_btn">
+</body>
+</html>

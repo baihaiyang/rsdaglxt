@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="styles/s1/css/reset.css">
+<link rel="stylesheet" href="styles/s1/css/yg_index.css">
+</head>
+
+<body>
+<div class="wrap">
+    <div class="iframe">
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="common/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.iframe').load('hr/hr_rycx_tip.html',{"radom":Math.random()*Math.random()});
+	$('.head > ul > li > a').click(function(){
+		$('.iframe').load($(this).attr('data_href'),{"radom":Math.random()*Math.random()});
+	});
+	function setIfrmae(){
+		$('.iframe').css("min-height",$(window).height() - $('.head').height());
+	}
+	setIfrmae();
+	$(window).resize(setIfrmae);
+});	
+</script>
+</html>
+

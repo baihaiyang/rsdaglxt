@@ -1,0 +1,53 @@
+/* @ CSS Document */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+}
+.da_title{
+    text-align: center;
+    border-bottom: 1px solid #43970e;
+    background-color: #e9fbe7;
+    line-height: 42px;
+    color: #aaa;
+}
+.da_list{
+    width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 47px;
+}
+.da_list thead th,
+.da_list td{
+    border-bottom: 1px solid #efecec;
+}
+.da_list .odd{
+    background-color: #fbfbfb;
+}
+.da_list .da_disabled{
+    color: #ccc;
+}
+.da_wzd_btn{
+    display: block;
+    width:94px;
+    height:28px;
+    background:#fff;
+    color:#43970e;
+    font-size:14px;
+    outline:0;
+    border:1px solid #43970e;
+    margin: 30px auto;
+    border-radius:3px;
+    cursor:pointer;
+}
+.da_wzd_btn:hover{
+    width:94px;
+    height:28px;
+    background:#43970e;
+    color:#fff;
+    font-size:14px;
+    outline:0;
+    border:1px solid #43970e;
+    border-radius:3px;
+    cursor:pointer;
+}

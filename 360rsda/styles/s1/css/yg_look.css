@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+.message {
+	float: left;
+	position: relative;
+	top: 31px;
+	left: 84px;
+}
+.r_1 span {
+	font-size: 24px;
+}
+.r_1 {
+	padding-bottom: 15px;
+}
+.r_2,
+.r_3 {
+	padding-bottom: 5px;
+}
+.r_message {
+	float: right;
+	position: relative;
+	top: 80px;
+	right: 20px;
+}
+.c_head:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.section {
+	width: 100%;
+	height: 100%;
+}
+.left {
+	width: 176px;
+	height: 100%;
+	background: #F9F9F9;
+	border-right: 1px solid #d0d0d0;
+	padding-top: 20px;
+	padding-left: 40px;
+	float: left;
+}
+.left li {
+	margin-bottom: 20px;
+}
+.f_m {
+	display: block;
+	background: url(../images/yg/folder.png) no-repeat left top;
+}
+.f_active {
+	display: block;
+	background: url(../images/yg/folder_h.png) no-repeat left top;
+}
+.f_m span {
+	margin-left: 24px;
+	display: inline-block;
+}
+.sec_ul {
+	margin-top: 20px;
+	display: none;
+}
+.right {
+	float: left;
+	left: 177px;
+	display: none;
+}
+.sec_ul a {
+	display: block;
+	margin-left: 24px;
+	background: url(../images/yg/sec_m.png) no-repeat left top;
+}
+.sec_ul span {
+	margin-left: 24px;
+	display: inline-block;
+}
+.active {
+	background: url(../images/yg/sec_m_h.png) no-repeat left top !important;
+}
+.loc {
+	position: relative;
+	left: 16px;
+	top: 18px;
+}
+.loc img {
+	padding-right: 10px;
+}
+.detail div {
+	float: left;
+	margin-left: 68px;
+	margin-top: 82px;
+}
+.section:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+

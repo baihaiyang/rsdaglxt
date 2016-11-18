@@ -1,0 +1,95 @@
+	<div style="clear:both;"></div>
+	<div class="a2_title_01_warp" style="padding-left:0;">
+    	<p class="a2_title_01">当前位置：人员管理 > 人员查询</p>
+    </div>
+	<div class="a12_table_02_warp">
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td width="10%" align="right">姓名</td>
+                <td width="23%"><input type="text"></td>
+                <td width="10%" align="right">身份证号码</td>
+                <td width="23%"><input type="text"></td>
+                <td align="right">条形码</td>
+                <td width="23%"><input type="text"></td>
+            </tr>
+            <tr>
+                <td align="right">导入时间</td>
+                <td><input type='text'/></td>
+                <td align="right">至</td>
+                <td><input type='text'/></td>
+                <td align="right">部门</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">人力资源部</option>
+                        <option value="">开发部</option>
+                        <option value="">测试部</option>
+                        <option value="">运维部</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+            <td align="right">员工号</td>
+            <td>
+                <input type="text">
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            </tr>
+        </table>
+    </div>
+	<div class="a2_btn_01_warp">
+    	<input type="button" value="查询" class="a12_btn_01">
+        <input type="button" value="重置" class="a12_btn_01">
+        <label for="a12_btn_file" class="a12_btn_01">导入</label>
+        <input type="file" value="导入"  id="a12_btn_file" class="a12_btn_f">
+    </div>
+    <div class="a12_table_03_warp">
+        <table cellpadding="1" cellspacing="0">
+        	<tr>
+            	<th width="5%">序号</th>
+				<th width="25%">域账号</th>
+            	<th width="25%">身份证号码</th>
+            	<th width="10%">姓名</th>
+            	<th width="10%">条形码</th>
+				<th width="15%">员工号</th>
+            	<th width="0%">下载</th>
+            </tr>
+            <tr>
+            	<td>1</td>
+				<td>zhangxx@360.com.cn</td>
+            	<td>110108198505026325</td>
+                <td><a href='javascript:;' onclick='xz();'>张XX</a></td>
+                <td>1A2016000001</td>
+				<td>112212312</td>
+                <td><input type="checkbox"></td>
+            </tr>
+			<tr>
+            	<td>1</td>
+				<td>wangxx@360.com.cn</td>
+            	<td>110109198505026325</td>
+                <td>王XX</td>
+                <td>1A2016000002</td>
+				<td>112216812</td>
+                <td><input type="checkbox" ></td>
+            </tr>
+			<tr>
+            	<td colspan="7" align="right" style="text-align:right;"><input type="button" value="全选" class="a2_btn_02"></td>
+            </tr>
+        </table>
+    </div>
+	  <div class="a2_btn_01_warp">
+    	<input type="button" value="下载" class="a12_btn_01" onclick="xz_all()">
+    </div>
+<script type="text/javascript">
+	function xz(){
+		window.open('index_rycx.html', '_blank','height=750, width=1386, toolbar= no, menubar=no, scrollbars=yes, resizable=no, location=no, status=no,top=0,left=0');
+		$('.section').load('yg/yg_download.html',{"radom":Math.random()*Math.random()});
+	}
+
+    function xz_all(){
+        window.open('hr/xz_xz.html', '_blank','height=750, width=1386, toolbar= no, menubar=no, scrollbars=yes, resizable=no, location=no, status=no,top=0,left=0');
+        // $(".section").load('xz_xz.html',{"radom"::Math.random()*Math.random()});
+    }
+</script>

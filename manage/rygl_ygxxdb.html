@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>人事档案管理系统</title>
+<link rel="stylesheet" type="text/css" href="../styles/s1/css/reset.css">
+<link rel="stylesheet" type="text/css" href="../styles/s1/css/manage.css">
+<script type="text/javascript" src="../common/js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+	<div class="current">
+		<p>当前位置 : 人员管理>员工信息对比</p>
+	</div>
+	<form>
+		<div class="rygl_table">
+			<table>
+				<tr>
+					<td width="10%" align="right">姓名</td>
+					<td width="23%"><input type="text" name=""></td>
+					<td width="10%" align="right">身份证号码</td>
+					<td width="23%"><input type="text" name=""></td>
+					<td width="10%" align="right">条形码</td>
+					<td width="23%"><input type="text" name=""></td>
+				</tr>
+				<tr>
+					<td width="10%" align="right">导入时间</td>
+					<td width="23%"><input type="text" name=""></td>
+					<td width="10%" align="center">至</td>
+					<td width="23%"><input type="text" name=""></td>
+					<td width="10%" align="right">部门</td>
+					<td width="23%">
+						<select>
+							<option>请选择</option>
+							<option>人力资源部</option>
+							<option>劳动软件部</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td width="10%" align="right">员工号</td>
+					<td width="23%"><input type="text" name=""></td>
+				</tr>
+			</table>
+		</div>
+		<div class="rygl_table_btn">
+			<input type="button" class="manage_button" name="" value="查询">
+			<input type="reset" class="manage_button" name="" value="重置">
+			<input type="button" class="manage_button" name="" value="导入">
+			<input type="file" class="rygl_table_btn_file" hidden="hidden" name="" value="导入">
+		</div>
+	</form>
+	<div class="rygl_list">
+		<div class="rygl_list_table">
+			<table  cellpadding="1" cellspacing="0">
+				<thead>
+					<tr>
+						<th width="5%">序号</th>
+						<th width="25%">域账号</th>
+						<th width="25%">身份证号码</th>
+						<th width="10%">姓名</th>
+						<th width="10%">条形码</th>
+						<th width="15%">员工号</th>
+						<th width="">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td width="5%">1</td>
+						<td width="25%">wwrwer@com.scsdf.c</td>
+						<td width="25%">130130133210001322</td>
+						<td width="10%">张三</td>
+						<td width="10%">1A546A464545</td>
+						<td width="15%">
+							<select>
+								<option>165456455456</option>
+								<option>165456455456</option>
+							</select>
+						</td>
+						<td width="">
+							<input type="checkbox" name="">
+						</td>
+					</tr>
+					<tr>
+						<td width="5%">2</td>
+						<td width="25%">wwrwer@com.scsdf.c</td>
+						<td width="25%">130130133210001322</td>
+						<td width="10%">张三</td>
+						<td width="10%">1A546A464545</td>
+						<td width="15%">
+							<select>
+								<option>165456455456</option>
+								<option>165456455456</option>
+							</select>
+						</td>
+						<td width="">
+							<input type="checkbox" name="">
+						</td>
+					</tr>
+					<tr>
+						<td width="5%">3</td>
+						<td width="25%">wwrwer@com.scsdf.c</td>
+						<td width="25%">130130133210001322</td>
+						<td width="10%">张三</td>
+						<td width="10%">1A546A464545</td>
+						<td width="15%">
+							<select>
+								<option>165456455456</option>
+								<option>165456455456</option>
+							</select>
+						</td>
+						<td width="">
+							<input type="checkbox" name="">
+						</td>
+					</tr>
+					<tr>
+						<td width="5%">4</td>
+						<td width="25%">wwrwer@com.scsdf.c</td>
+						<td width="25%">130130133210001322</td>
+						<td width="10%">张三</td>
+						<td width="10%">1A546A464545</td>
+						<td width="15%">
+							<select>
+								<option>165456455456</option>
+								<option>165456455456</option>
+							</select>
+						</td>
+						<td width="">
+							<input type="checkbox" name="">
+						</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td align="right"><div class="checkall">全选</div></td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+		<div class="rygl_list_bc">
+			<input type="button" class="manage_button" name="" value="保存">
+		</div>
+	</div>
+</body>
+</html>

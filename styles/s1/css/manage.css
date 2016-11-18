@@ -1,0 +1,285 @@
+/************************public  manage公用样式开始*************************/
+.current{
+	width: 100%;
+	height: 53px;
+	border-bottom: 1px solid #f1f1f1;
+}
+.current p{
+	font-size: 16px;
+	color: #8f8f8f;
+	line-height: 53px;
+	background: url(../images/hr/current.jpg) left center no-repeat;
+	padding-left: 20px;
+}
+.manage_button{
+	width: 94px;
+	height: 28px;
+	line-height: 26px;
+	background: #fff;
+	color: #43970e;
+	font-size: 14px;
+	outline: none;
+	border: 1px solid #43970e;
+	border-radius: 3px;
+	cursor: pointer;
+	text-align: center;
+}
+.manage_button:hover{
+	background-color: #34970e;
+	color: #fff;
+}
+
+
+
+/************************public  manage公用样式结束*************************/
+/*******************manage_list.html    开始********************/
+.outside{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.tab{
+    margin-top: 30px;
+    position: relative;
+    border-bottom: 2px solid #43970e;
+}
+.tab ul{
+	margin-bottom: -2px;
+}
+.tab ul li{
+	text-align: center;
+    line-height: 46px;
+    float: left;
+    height: 46px;
+    margin-right: 5px;
+    border: 1px solid #d0d0d0;
+    border-bottom: 2px solid #43970e;
+    border-radius: 5px 5px 0 0;
+    background: #FFF;
+    cursor: pointer;
+}
+.tab ul li a{
+	display: block;
+    padding-left: 63px;
+    padding-right: 30px;
+    font-size: 16px;
+    color: #333;
+}
+.tab ul li .tab1_1{
+	padding: 0 62px;
+}
+.tab ul .tab_active{
+	border: 2px solid #43970e;
+	border-bottom: 2px solid #fff;
+	color: #43970e;
+	height: 45px;
+}
+.tab_active .tab1_1{
+	color: #43970e;
+}
+.tab2_1{
+	background: url(../images/hr/look.png) 30px center no-repeat;
+}
+.tab_active .tab2_1{
+	background: url(../images/hr/look_h.png) 30px center no-repeat;
+	color:#43970e;
+}
+.tab3_1{
+	background: url(../images/hr/add.png) 30px center no-repeat;
+}
+.tab_active .tab3_1{
+	background: url(../images/hr/add_h.png) 30px center no-repeat;
+	color:#43970e;
+}
+.tab4_1{
+	background: url(../images/hr/static.png) 30px center no-repeat;
+}
+.tab_active .tab4_1{
+	background: url(../images/hr/static_h.png) 30px center no-repeat;
+	color:#43970e;
+}
+/*******************manage_list.html    结束********************/
+
+/*******************shouye.html    开始********************/
+.shouye_content{
+	background: url(../images/hr/shouye_bg.jpg);
+	min-height: 600px;
+}
+.shouye_list ul li{
+	height: 50px;
+	line-height: 50px;
+	padding-left: 250px;
+	font-size: 18px;
+}
+.shouye_list ul li a{
+	color: #43970e;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.shouye_list{
+	padding-top: 50px;
+}
+/*******************shouye.html    结束********************/
+
+/*******************rygl.html    开始********************/
+.rygl_tab{
+	border-bottom: 2px solid #f1f1f1;
+}
+.rygl_tab ul{
+	margin-bottom: -2px;
+}
+.rygl_tab ul li{
+	width: 120px;
+	height: 53px;
+	text-align: center;
+	line-height: 53px;
+	cursor: pointer;
+}
+.rygl_tab ul li a{
+	font-size: 16px;
+	color: #333;
+}
+.rygl_tab .rygl_tab_active{
+	border-bottom: 2px solid #43970e;
+	height: 52px;
+}
+.rygl_table table tr{
+	line-height: 44px;
+}
+.rygl_table table tr td{
+	font-size: 14px;
+}
+.rygl_table table tr td input[type="text"], .rygl_table table tr td select{
+	width: 260px;
+	padding-left: 10px;
+	margin-left: 10px;
+	border:1px solid #c0c0c0;
+	height: 30px;
+	line-height: 30px;
+	outline: none;
+}
+.rygl_table table tr td select{
+	width: 272px;
+	height: 32px;
+	line-height: 32px;
+	padding: 4px 0;
+}
+.rygl_table_btn{
+	position: relative;
+	padding-top: 30px;
+	width: 600px;
+	margin: 0 auto;
+}
+.rygl_table_btn input{
+	margin: 0 50px;
+}
+.rygl_table_btn_file{
+	filter: alpha(opacity=0); opacity: 0;
+}
+.rygl_list{
+	border-top: 2px solid #34970e;
+	margin-top: 20px;
+	padding-bottom: 60px;
+}
+.rygl_list .rygl_list_table table{
+	width: 100%;
+}
+.rygl_list .rygl_list_table table tr{
+	line-height: 44px;
+}
+.rygl_list .rygl_list_table table tfoot tr{
+	height: 48px;
+}
+.rygl_list .rygl_list_table table tr td, .rygl_list .rygl_list_table table tr th{
+	text-align: center;
+	color: #323232;
+	font-size: 16px;
+	border-bottom: 1px solid #efecec;
+}
+.rygl_list .rygl_list_table table tr:nth-child(2n){
+	background-color: #ececec;
+}
+.rygl_list .rygl_list_table .checkall{
+	width: 60px;
+    height: 30px;
+    line-height: 30px;
+    background: #43970e;
+    color: #fff;
+    font-size: 14px;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 4px;
+}
+.rygl_list .rygl_list_bc{
+	text-align: center;
+	padding-top: 30px;
+}
+.rygl_list .rygl_list_bc input{
+	margin: 0 30px;
+}
+.rygl_list_table table tr td span{
+	padding: 0 10px;
+	font-size: 16px;
+	cursor: pointer;
+	color: #0000ee;
+}
+.rygl_list_table select{
+	width: 140px;
+	height: 26px;
+	padding: 2px 0;
+}
+.search_wzdxx_zg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: #000;
+	opacity: 0.1;
+}
+.search_wzdxx_con{
+	position: fixed;
+    width: 1000px;
+    /*height: 500px;*/
+    left: 10%;
+    top: 4%;
+    z-index: 20;
+    background-color: #fff;
+    border: 1px solid #ececec;
+}
+.search_wzdxx_con h3{
+	text-align: center;
+	border-bottom: 1px solid #43970e;
+	background-color: #e9fbe7;
+	line-height: 42px;
+	color: #aaa;
+}
+.search_wzdxx_con table{
+	width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 48px;
+}
+.search_wzdxx_con table tbody tr:nth-child(2n-1){
+	background-color: #FBFBED;
+}
+.search_wzdxx_con .anniu{
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px 0 30px 0;
+}
+.search_wzdxx_con .anniu input{
+	margin: 0 26px;
+}
+
+/*******************rygl.html    结束********************/
+
+/*******************qxgl.html    开始********************/
+.rygl_list .rygl_list_table .qxgl_czbtn{
+	width: 100px;
+}
+/*******************qxgl.html    结束********************/
+

@@ -1,0 +1,250 @@
+.a2_title_01_warp:before,.a2_title_01_warp:afert{
+	content:'';
+	clear:both;
+	display:block;
+}
+.a12_table_03_warp table{
+	border-top:2px solid #43970e;
+	width:100%;
+}
+.a12_table_03_warp table tr{
+	height:47px;
+	line-height:47px;
+}
+.a12_table_03_warp table tr th{
+	text-align:center;
+	color:#323232;
+	font-size:16px;
+	border-bottom:1px solid #efecec;
+}
+.a12_table_03_warp table tr td{
+	text-align:center;
+	border-bottom:1px solid #efecec;
+	color:#323232;
+	font-size:16px;
+	background:#fff;
+}
+.a12_table_03_warp table tr:nth-child(odd) td{
+	background:#fbfbfb;	
+}
+.a12_table_02_warp{
+	margin-right:57px;	
+}
+.a12_table_02_warp table{
+	width:100%;
+}
+.a12_table_02_warp table tr{
+	height:47px;
+	line-height:47px;
+}
+.a12_table_02_warp table tr td{
+	font-size:16px;
+}
+.a12_table_02_warp table tr td input[type="text"]{
+	width:268px;
+	height:30px;
+	border: 1px solid #c0c0c0;
+	outline:none;
+	margin-left:10px;
+}
+.a12_table_02_warp table tr td select{
+	width:270px;
+	height:32px;
+	border: 1px solid #c0c0c0;
+	outline:none;
+	margin-left:10px;
+}
+.a12_btn_01{
+	display: inline-block;
+	width:94px;
+	height:28px;
+	line-height: 28px;
+	background:#fff;
+	color:#43970e;
+	font-size:14px;
+	outline:0;
+	border:1px solid #43970e;
+	margin-left:70px;
+	border-radius:3px;
+	cursor:pointer;
+}
+.a12_btn_f {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.a12_btn_01:hover{
+	display: inline-block;
+	width:94px;
+	height:28px;
+	background:#43970e;
+	color:#fff;
+	font-size:14px;
+	outline:0;
+	border:1px solid #43970e;
+	margin-left:70px;
+	border-radius:3px;
+	cursor:pointer;
+}
+.file_warp{
+	width:94px;
+	height:28px;
+	background:#fff;
+	color:#43970e;
+	font-size:14px;
+	line-height:28px;
+	text-align:center;
+	outline:0;
+	border:1px solid #43970e;
+	margin-left:70px;
+	border-radius:3px;
+	cursor:pointer;
+	position:relative;
+}
+.file_warp input[type="file"]{
+	position:absolute;
+	left:0;
+	top:0;
+	opacity:0;
+	filter: alpha(opacity=0);
+	cursor:pointer;
+}
+/* 分部授权 */
+#get_right{
+	color: #aaa;
+	margin: 0 auto;
+	padding: 0 110px;
+	border-bottom: 1px solid #43970e;
+	background-color: #e9fbe7;
+}
+#get_right:after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+#get_right .li_tab{
+	float: left;
+	line-height: 36px;
+	margin-bottom: 0;
+	padding: 5px 20px;
+	cursor: pointer;
+}
+#get_right .on {
+	color: #43970e;
+}
+.a0_left .title{
+	font-size: 16px;
+	color: #8f8f8f;
+	line-height: 46px;
+	padding-left: 40px;
+	background: url(../images/a2_title_icon_01.jpg) 10px center no-repeat;
+	font-weight: normal;
+	border-bottom: 1px solid #f1f1f1;
+}
+#num1 .num_table{
+	margin: 10px 0; 
+}
+#num1 .num_table tr {
+	line-height: 36px;
+}
+#num1 .num_table tr input,
+#num1 .num_table tr select{
+	width: 120px;
+	margin-left: 10px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0;
+}
+.content1{
+	position: relative;
+	display: none;
+}
+#num2 table{
+	border-top: 2px solid #43970e;
+}
+.content1 .num_btn{
+	position: absolute;
+	top: 10px;
+	right: 40px;
+}
+#num2 td,
+#num2 th{
+	text-align: center;
+	line-height: 48px;
+	color: #323232;
+}
+#num2 table th{
+	border-bottom: 1px solid #efecec;
+}
+#num2 .num_odd td{
+	background-color: #fff;
+	border-bottom: 1px solid #efecec;
+}
+#num2 .num_even td{
+	background-color: #fbfbfb;
+	border-bottom: 1px solid #efecec;
+}
+#num2_li li{
+    line-height: 36px;
+}
+#num2_li li input{
+    margin-right: 10px;
+}
+#num3 .num3_radio{
+	line-height: 56px;
+	color: #323232;
+	text-align: center;
+	border-top: 2px solid #43970e;
+}
+#num3 .num3_radio label{
+	margin-left: 20px;
+}
+#num3 .num3_choice{
+	text-align: center;
+}
+#num4_t_p{
+	text-align: center;
+	line-height: 42px;
+}
+#num4_t_input{
+	width: 120px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 16px;
+	text-align: center;
+	padding: 0;
+	border: 1px solid #ccd;
+}
+#num4 .right_p{
+	font-size: 24px;
+	font-weight: lighter;
+	text-align: center;
+	line-height: 56px;
+	color: #323232;
+	display: none;
+}
+#right_code{
+	color: #43970e;
+}
+#btn_close{
+	position: absolute;
+	top: 290px;
+	left: 330px;
+	display: none;
+}
+#num3_t_right{
+	line-height: 47px;
+	width: 440px;
+	margin: 10px auto;
+	text-align: right;
+	padding-right: 120px;
+}
+#num3_t_right label{
+	cursor: pointer;
+}
+
+
+
+
+

@@ -1,0 +1,126 @@
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+.menuTag a{
+	color:#000;
+}
+.menuTag a:active{
+	color:#000;
+}
+.a0_welcome{
+	width:100%;
+	height:100%;
+	background:url(../images/welcome_back.jpg) no-repeat center;
+}
+.a2_welcome_60{
+	width:100%;
+	height:100%;
+	background:url(../images/a2_welcome_60.jpg) no-repeat center;
+}
+.a2_welcome_36{
+	width:100%;
+	height:100%;
+	background:url(../images/a2_welcome_36.jpg) no-repeat center;
+}
+html,body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.a0_left{
+	width:256px;
+	background:#e9fbe7;
+	height:100%;
+	overflow:auto;
+	float:left;
+}
+.a0_right{
+	margin-left:256px;
+	height:100%;
+}
+.a0_left ul{
+	list-style:none;
+}
+.a0_left > ul ul{
+	/*margin-left:20px;*/
+}
+.a0_left > ul > li .menuTag{
+	font-size:18px;
+	font-family:'微软雅黑';
+}
+.a0_left ul li{
+	padding-left:10px;
+}
+.icon_menu{
+	background:url(../images/yg/select.png) no-repeat center;
+}
+.icon_menu.on{
+	background:url(../images/yg/select_h.png) no-repeat center;
+}
+.menuTag{
+	padding-left:18px;
+	position:relative;
+	padding-left:40px;
+	cursor:pointer;
+	/*background:url(../images/icon_men.png) no-repeat left top;*/
+}
+.icon_menu{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	left:10px;
+	position:absolute;
+}
+.a0_left ul ul{
+	display:none;
+}
+.a0_left .menuTag a{
+	text-decoration:none;
+	color:inherit;
+}
+/*一级菜单*/
+.a0_left > ul > li{
+	padding-left:0px;
+}
+.a0_left > ul > li{
+	margin-bottom:10px;
+}
+.a0_left > ul > li > .menuTag{
+	/*margin-bottom:10px;*/
+	height:20px;
+	padding-top:17px;
+	padding-bottom:17px;
+	cursor:pointer;
+	line-height:20px;
+}
+.a0_left > ul > li.icon_menu{
+	background-position:left 20px;
+}
+.a0_left > ul > li > .menuTag{
+	background-position:17px left;
+	background: #cbf5c7;
+}
+/*二级菜单*/
+.a0_left > ul > li  > ul > li .menuTag{
+	height:20px;
+	margin-top:15px;
+	line-height:20px;
+}
+/*菜单三级*/
+.a0_left > ul > li  > ul > li > ul > li{
+	padding-left:0px;
+}
+.a0_left > ul > li  > ul > li > ul > li .menuTag{
+	background:none;
+	line-height:20px;
+	margin-left:10px;
+} 
+.a2_a_01_color{
+	color:#F00 !important;	
+}
+
+
+
+

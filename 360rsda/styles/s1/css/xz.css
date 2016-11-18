@@ -1,0 +1,60 @@
+/*@CSS Document*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+}
+.d_title{
+    text-align: center;
+    border-bottom: 1px solid #43970e;
+    background-color: #e9fbe7;
+    line-height: 42px;
+    color: #aaa;
+}
+.download li{
+    list-style: none;
+    line-height: 36px;
+}
+.download{
+    width: 600px;
+    margin: 30px auto;    
+}
+.download input{
+    margin-right: 5px;
+}
+.d_btn{
+    display: block;
+    width:94px;
+    height:28px;
+    background:#fff;
+    color:#43970e;
+    font-size:14px;
+    outline:0;
+    border:1px solid #43970e;
+    margin: 0 auto;
+    border-radius:3px;
+    cursor:pointer;
+}
+.d_btn:hover{
+    width:94px;
+    height:28px;
+    background:#43970e;
+    color:#fff;
+    font-size:14px;
+    outline:0;
+    border:1px solid #43970e;
+    border-radius:3px;
+    cursor:pointer;
+}
+#num2_li{
+    line-height: 36px;
+    width: 800px;
+    margin: 20px auto;
+    list-style: none;
+}
+#num2_li li{
+    list-style: none;
+}
+#num2_li ul{
+    padding-left: 20px;
+}
