@@ -26,7 +26,7 @@
 		<div class="rygl_table_btn">
 			<input type="button" class="manage_button" name="" value="查询">
 			<input type="reset" class="manage_button" name="" value="重置">
-			<input type="button" class="manage_button" name="" value="新增授权码">
+			<input type="button" id="xzsqm_btn" class="manage_button" name="" value="新增授权码">
 		</div>
 	</form>
 	<div class="rygl_list">
@@ -183,6 +183,12 @@
 </body>
 <script type="text/javascript">
 	$(function(){
-			});
+		//点击新增授权码
+		$('#xzsqm_btn').click(function(){
+			// console.log($('#iframe', window.parent.document));
+			console.log(window.parent.document.getElementById('iframe'));
+			// $('#iframe', window.parent.document).attr('src','manage/qxgl_xzsqm.html');
+		});
+	});
 </script>
 </html>
