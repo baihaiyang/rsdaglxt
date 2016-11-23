@@ -46,7 +46,7 @@
 		<div class="rygl_table_btn">
 			<input type="button" class="manage_button" name="" value="查询">
 			<input type="reset" class="manage_button" name="" value="重置">
-			<input type="button" class="manage_button" name="" value="导入">
+			<input type="button" class="manage_button" id="leading_in" name="" value="导入">
 			<input type="file" class="rygl_table_btn_file" hidden="hidden" name="" value="导入">
 		</div>
 	</form>
@@ -78,10 +78,10 @@
 							</select>
 						</td>
 						<td width="">
-							<input type="checkbox" name="">
+							<input class="ygxxdb_checkbox" type="checkbox" name="">
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td width="5%">2</td>
 						<td width="25%">wwrwer@com.scsdf.c</td>
 						<td width="25%">130130133210001322</td>
@@ -94,7 +94,7 @@
 							</select>
 						</td>
 						<td width="">
-							<input type="checkbox" name="">
+							<input class="ygxxdb_checkbox" type="checkbox" name="">
 						</td>
 					</tr>
 					<tr>
@@ -110,10 +110,10 @@
 							</select>
 						</td>
 						<td width="">
-							<input type="checkbox" name="">
+							<input class="ygxxdb_checkbox" type="checkbox" name="">
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td width="5%">4</td>
 						<td width="25%">wwrwer@com.scsdf.c</td>
 						<td width="25%">130130133210001322</td>
@@ -126,7 +126,7 @@
 							</select>
 						</td>
 						<td width="">
-							<input type="checkbox" name="">
+							<input class="ygxxdb_checkbox" type="checkbox" name="">
 						</td>
 					</tr>
 				</tbody>
@@ -148,4 +148,15 @@
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+	$(function(){
+		$('.checkall').click(function(){
+			$('.ygxxdb_checkbox').attr('checked',true);
+		});
+		//点击导入
+		$('#leading_in').click(function(){
+			$('.rygl_table_btn_file').click();
+		});
+	});
+</script>
 </html>
