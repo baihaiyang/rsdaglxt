@@ -29,7 +29,7 @@
 							</div>
 							<div class="passname">密码</div>
 							<div class="passtext">
-								<!-- <label for="pass">密码</label> -->
+								<label for="pass" id="pass_label">请输入密码</label>
 								<input type="password" id="pass" name="">
 							</div>
 							<div class="xuxian"></div>
@@ -68,6 +68,21 @@
 				$('#user_label').text('用户名不能为空').attr('style','display:inline; color:red;')
 				$(this).attr('style','border-color:red;');
 			}
+		});
+		$('#pass').focus(function(){
+			$('#pass_label').attr('style','display:none;');
+			$(this).attr('style','border-color:#ccc;');
+		});
+		$('#pass').blur(function(){
+			if($(this).val() == ''){
+				$('#pass_label').text('用户名不能为空').attr('style','display:inline; color:red;')
+				$(this).attr('style','border-color:red;');
+			}
+		});
+		//点击登录
+		$('.denglu').click(function(e){
+			e.preventDefault();
+			window.location = 'index.html';
 		});
 	});
 </script>

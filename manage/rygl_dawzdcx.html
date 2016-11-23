@@ -46,7 +46,7 @@
 		<div class="rygl_table_btn">
 			<input type="button" class="manage_button" name="" value="查询">
 			<input type="reset" class="manage_button" name="" value="重置">
-			<input type="button" class="manage_button" name="" value="导入">
+			<input type="button" class="manage_button" name="" id="leading_in" value="导入">
 			<input type="file" class="rygl_table_btn_file" hidden="hidden" name="" value="导入">
 		</div>
 	</form>
@@ -76,7 +76,7 @@
 							<span id="dawzdsz">3/4</span>
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td width="5%">2</td>
 						<td width="25%">wwrwer@com.scsdf.c</td>
 						<td width="25%">130130133210001322</td>
@@ -98,7 +98,7 @@
 							<span id="dawzdsz">3/4</span>
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td width="5%">4</td>
 						<td width="25%">wwrwer@com.scsdf.c</td>
 						<td width="25%">130130133210001322</td>
@@ -120,7 +120,7 @@
 							<span id="dawzdsz">3/4</span>
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td width="5%">4</td>
 						<td width="25%">wwrwer@com.scsdf.c</td>
 						<td width="25%">130130133210001322</td>
@@ -142,7 +142,7 @@
 							<span id="dawzdsz">3/4</span>
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td width="5%">4</td>
 						<td width="25%">wwrwer@com.scsdf.c</td>
 						<td width="25%">130130133210001322</td>
@@ -230,6 +230,10 @@
 		$('body').on('click','#guanbi',function(){
 			$('#search_wzdxx_zg').attr('style','display:none;')
 			$('#search_wzdxx_con').attr('style','display:none;')			
+		});
+		//点击导入
+		$('#leading_in').click(function(){
+			$('.rygl_table_btn_file').click();
 		});
 	});
 </script>

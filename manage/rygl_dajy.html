@@ -46,7 +46,7 @@
 		<div class="rygl_table_btn">
 			<input type="button" class="manage_button" name="" value="查询">
 			<input type="reset" class="manage_button" name="" value="重置">
-			<input type="button" class="manage_button" name="" value="导入">
+			<input type="button" class="manage_button" name="" id="leading_in" value="导入">
 			<input type="file" class="rygl_table_btn_file" hidden="hidden" name="" value="导入">
 		</div>
 	</form>
@@ -70,72 +70,72 @@
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>已借阅</td>
 						<td>
-							<input type="checkbox" name="">
+							<input class="rycx_checkbox" type="checkbox" name="">
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>未借阅</td>
 						<td>
-							<input type="checkbox" name="">
+							<input class="rycx_checkbox" type="checkbox" name="">
 						</td>
 					</tr>
 					<tr>
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>已借阅</td>
 						<td>
-							<input type="checkbox" name="">
+							<input class="rycx_checkbox" type="checkbox" name="">
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>未借阅</td>
 						<td>
-							<input type="checkbox" name="">
+							<input class="rycx_checkbox" type="checkbox" name="">
 						</td>
 					</tr>
 					<tr>
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>已借阅</td>
 						<td>
-							<input type="checkbox" name="">
+							<input class="rycx_checkbox" type="checkbox" name="">
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>未借阅</td>
 						<td>
-							<input type="checkbox" name="">
+							<input class="rycx_checkbox" type="checkbox" name="">
 						</td>
 					</tr>
 				</tbody>
@@ -161,6 +161,14 @@
 </body>
 <script type="text/javascript">
 	$(function(){
-			});
+		//全选
+		$('.checkall').click(function(){
+			$('.rycx_checkbox').attr('checked',true);
+		});
+		//点击导入
+		$('#leading_in').click(function(){
+			$('.rygl_table_btn_file').click();
+		});
+	});
 </script>
 </html>

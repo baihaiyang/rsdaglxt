@@ -46,7 +46,7 @@
 		<div class="rygl_table_btn">
 			<input type="button" class="manage_button" name="" value="查询">
 			<input type="reset" class="manage_button" name="" value="重置">
-			<input type="button" class="manage_button" name="" value="导入">
+			<input type="button" class="manage_button" name="" id="leading_in" value="导入">
 			<input type="file" class="rygl_table_btn_file" hidden="hidden" name="" value="导入">
 		</div>
 	</form>
@@ -70,20 +70,20 @@
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>未销毁</td>
 						<td>
-							<input type="button" class="checkall" name="" value="修改">
+							<input type="button" class="checkall rygl_update" name="" value="修改">
 							<input type="button" class="checkall" name="" value="销毁">
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>已销毁</td>
@@ -95,20 +95,20 @@
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>未销毁</td>
 						<td>
-							<input type="button" class="checkall" name="" value="修改">
+							<input type="button" class="checkall rygl_update" name="" value="修改">
 							<input type="button" class="checkall" name="" value="销毁">
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>已销毁</td>
@@ -120,20 +120,20 @@
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>未销毁</td>
 						<td>
-							<input type="button" class="checkall" name="" value="修改">
+							<input type="button" class="checkall rygl_update" name="" value="修改">
 							<input type="button" class="checkall" name="" value="销毁">
 						</td>
 					</tr>
-					<tr>
+					<tr class="bg_ececec">
 						<td>1</td>
 						<td>wwrwer@com.scsdf.c</td>
 						<td>130130133210001322</td>
-						<td><span class="">张三</span></td>
+						<td>张三</td>
 						<td>1A546A464545</td>
 						<td>165456455456</td>
 						<td>已销毁</td>
@@ -148,6 +148,14 @@
 </body>
 <script type="text/javascript">
 	$(function(){
-			});
+		//点击导入
+		$('#leading_in').click(function(){
+			$('.rygl_table_btn_file').click();
+		});
+		//点击修改
+		$('.rygl_update').click(function(){
+			$('#iframe',window.top.document).attr('src','employee/shouye.html');
+		});
+	});
 </script>
 </html>

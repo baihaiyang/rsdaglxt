@@ -35,7 +35,7 @@
 			</ul>
 		</div>
 		<div class="manage_iframe">
-			<iframe src="shouye.html" frameborder="0" scrolling="no" name="manage_iframe" width="100%" height="100%" id="manage_iframe"></iframe>
+			<iframe src="shouye.html" frameborder="0" scrolling="yes" name="manage_iframe" width="100%" height="100%" id="manage_iframe" style="overflow-x: hidden;" ></iframe>
 		</div>
 	</div>
 </body>
@@ -43,7 +43,7 @@
 	$(function(){
 		// 页面高度
 		function setIfrmae1(){
-			var manage_iframe_h = $(window).height() - $(".tab").height();
+			var manage_iframe_h = $(window).height() - $(".tab").height()-40;
 			$(".manage_iframe").height(manage_iframe_h);
 		}
 		setIfrmae1();
@@ -52,20 +52,14 @@
 		$('.tab li a').click(function(){
 			$(this).parent().addClass('tab_active');
 			$(this).parent().siblings().removeClass('tab_active');
-			if($(this).hasClass('tab3_1')){
-				$('#manage_iframe').attr('scrolling', 'yes');
+			if($(this).hasClass('tab3_1') || $(this).hasClass('tab1_1')){
+				// $('#manage_iframe').attr('scrolling', 'yes');
+				document.getElementById('manage_iframe').setAttribute('scrolling','yes');
 			}else{
-				$('#manage_iframe').attr('scrolling', 'no');
+				// $('#manage_iframe').attr('scrolling', 'no');
+				document.getElementById('manage_iframe').setAttribute('scrolling','no');
 			}
 		});
-
-		//判断是不是权限管理
-		/*function checkIsQxgl(){
-			if($('#manage_iframe').attr('src') == 'qxgl.html'){
-				$('#manage_iframe').attr('scrolling', 'yes');
-			}
-		}
-		checkIsQxgl();*/
 	});
 </script>
 </html>

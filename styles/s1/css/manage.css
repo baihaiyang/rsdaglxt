@@ -3,6 +3,7 @@
 	width: 100%;
 	height: 53px;
 	border-bottom: 1px solid #f1f1f1;
+	position: relative;
 }
 .current p{
 	font-size: 16px;
@@ -28,7 +29,9 @@
 	background-color: #34970e;
 	color: #fff;
 }
-
+.h_30{
+	height: 30px;
+}
 
 
 /************************public  manage公用样式结束*************************/
@@ -64,6 +67,7 @@
     padding-right: 30px;
     font-size: 16px;
     color: #333;
+    outline: none;
 }
 .tab ul li .tab1_1{
 	padding: 0 62px;
@@ -138,6 +142,7 @@
 .rygl_tab ul li a{
 	font-size: 16px;
 	color: #333;
+	outline: none;
 }
 .rygl_tab .rygl_tab_active{
 	border-bottom: 2px solid #43970e;
@@ -196,7 +201,7 @@
 	font-size: 16px;
 	border-bottom: 1px solid #efecec;
 }
-.rygl_list .rygl_list_table table tr:nth-child(2n){
+.rygl_list .rygl_list_table table .bg_ececec{
 	background-color: #ececec;
 }
 .rygl_list .rygl_list_table .checkall{
@@ -282,4 +287,93 @@
 	width: 100px;
 }
 /*******************qxgl.html    结束********************/
-
+/********************qxgl_xzsqm.html开始*******************/
+.xzsqm_diyibu, .xzsqm_dierbu{
+	padding-bottom: 50px;
+}
+.qxgl_xzsqm_nav{
+	width: 100%;
+	color: #aaa;
+    margin: 0 auto;
+    border-bottom: 1px solid #43970e;
+    background-color: #e9fbe7;
+}
+.qxgl_xzsqm_nav ul{
+	padding-left: 200px;
+}
+.qxgl_xzsqm_nav ul li{
+	width: 200px;
+	height: 53px;
+	line-height: 53px;
+	font-size: 16px;
+	text-align: center;
+}
+.qxgl_xzsqm_nav ul .nav_active{
+	color: #43970e;
+}
+.kckcllb_div>ul>li>ul{
+	padding-left: 20px;
+}
+.kckcllb_div>ul li{
+	/*height: 30px;*/
+	line-height: 30px;
+	font-size: 16px;
+}
+.current_xybbtn{
+	position: absolute;
+	right: 20px;
+	top: 13px;
+}
+.kckcllb_div_ul_li_p{
+	cursor: pointer;
+	color:red;
+}
+.xzcl_list_li_hidden{
+	display: none;
+}
+.czqx_list_table{
+	width: 800px;
+	height: 200px;
+	margin: 30px auto;
+}
+.czqx_list_table table{
+	width: 600px;
+	margin: 0 auto;
+}
+.czqx_list_table table tr td{
+	font-size: 16px;
+	color: #333;
+	line-height: 30px;
+}
+.disibu_div{
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 160px;
+}
+.disibu_div input{
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #333;
+}
+.current_show{
+	width: 320px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.current_show .manage_button{
+	margin: 30px auto;
+}
+.current_show .xssqm_div{
+	margin: 0 auto;
+	text-align: center;
+}
+.current_show .xssqm_div .span1{
+	font-size: 20px;
+}
+.current_show .xssqm_div .span2{
+	color:#43970e;
+	font-size: 18px;
+}
+/********************qxgl_xzsqm.html结束*******************/

@@ -9,7 +9,7 @@
 .content .center{
 	height: 600px;
 	width: 100%;
-	background-color: #339900;
+	background-color: #43970e;
 }
 .lunbo{
 	width: 1000px;
@@ -66,7 +66,7 @@
 .usertext input, .passtext input{
 	border: 1px solid #ccc;
 	width: 168px;
-	padding-left: 30px;
+	padding-left: 14px;
 }
 .xuxian{
 	border-top: 1px dotted #666;
@@ -82,7 +82,7 @@
 	font-weight: bold;
 	text-align: center;
 	border-radius: 4px;
-	background-color: #339900;
+	background-color: #43970e;
 	cursor: pointer;
 	border: none;
 }
@@ -97,7 +97,7 @@
 	color: #999;
 	position: absolute;
 	top: 8px;
-	left: 30px;
+	left: 14px;
 }
 .jiantou{
 	position: absolute;

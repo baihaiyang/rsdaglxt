@@ -1,3 +1,40 @@
+/**************************public   employee公用样式开始*****************************/
+.employee_button1{
+	width: 100px;
+	height: 30px;
+	background-color: #43970e;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.employee_button2{
+	width: 100px;
+	height: 30px;
+	background-color: #fff;
+	line-height: 30px;
+	font-size: 16px;
+	color: #43970e;
+	text-align: center;
+	border-radius: 4px;
+	cursor: pointer;
+	border: 1px solid #43970e;
+}
+.employee_select{
+	width: 14px;
+	height: 14px;
+	border:1px solid #cecece;
+	display: inline-block;
+}
+.employee_select_bg{
+	border:1px solid #f9f9f9;
+	background: url(../images/employee/png_7.png) left center no-repeat;
+	background-size: 100% 100%;
+}
+/**************************public   employee公用样式结束*****************************/
+/**************************shouye.html和ckgrxx.html样式开始*****************************/
 .emp_head{
 	width: 100%;
 	border-bottom: 1px solid #cecece;
@@ -44,13 +81,7 @@
 	width: 116px;
 	height: 34px;
 	margin-top: 14px;
-	background-color: #66cc33;
 	line-height: 34px;
-	font-size: 20px;
-	color: #fff;
-	text-align: center;
-	border-radius: 4px;
-	cursor: pointer;
 }
 .public .xiala_botton{
 	width: 110px;
@@ -139,9 +170,335 @@
 .emp_list .list_item .item_down .upload_div{
 	width: 252px;
 }
+.grxx_content{
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+.grxx_content .grxx_nav{
+	width: 239px;
+	min-height: 600px;
+	border-right: 1px solid #cecece;
+	padding-bottom: 30px;
+}
+.grxx_content .grxx_xxnr{
+	width: 960px;
+	min-height: 600px;
+	background-color: #fff;
+}
+.grxx_nav_ul{
+	padding:20px 0 0 30px;
+}
+.grxx_nav_ul>li{
+	line-height: 36px;
+	font-size: 16px;
+}
+.grxx_nav_ul .li_margin{
+	margin-left: 16px;
+}
+.grxx_nav_ul .huise span{
+	color: #949495;
+}
+.grxx_nav_ul>li>span{
+	padding-left: 30px;
+	cursor: pointer;
+}
+.grxx_nav_ul>li .span_yiji1{
+	background: url(../images/employee/png_1.png) 4px center no-repeat;
+}
+.grxx_nav_ul>li .span_yiji2{
+	background: url(../images/employee/png_2.png) 4px center no-repeat;
+}
+.grxx_nav_ul_ul li{
+	line-height: 16px;
+	padding: 10px 0;
+	font-size: 14px;
+}
+.grxx_nav_ul_ul li a{
+	color: #333;
+	display: block;
+	margin-left: 24px;
+}
+.grxx_nav_ul_ul li a span{
+	margin-left: 20px;
+	display: inline-block;
+}
+.grxx_nav_ul_ul li .a_ys1{
+	background: url(../images/employee/png_3.png) left 2px no-repeat;
+	color: #43970E;
+}
+.grxx_nav_ul_ul li .a_ys2{
+	background: url(../images/employee/png_4.png) left 2px no-repeat;
+}
+.grxx_nav_ul_ul{
+	padding-left: 20px;
+}
+.ul_disnone{
+	display: none;
+}
+.buttom_div{
+	width: 100%;
+	height: 60px;
+	border-top: 1px solid #cecece;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #f9f9f9;
+}
+.buttom_div>div{
+	width: 1200px;
+	margin: 0 auto;
+	/*line-height: 60px;*/
+	padding-top: 17px;
+}
+.buttom_div .select_all_div{
+	height: 20px;
+	margin-left: 60px;
+	padding-top: 3px;
+}
+.buttom_div .select_all_div_div{
+	width: 15px;
+	height: 15px;
+	border:1px solid #cecece;
+	display: inline-block;
+	float: left;
+	margin-top: 1px; 	
+	margin-right: 6px;	
+}
+.buttom_div .select_all_div_bg{
+	background: url(../images/employee/png_8.png) 4px 4px no-repeat;
+}
+.buttom_div .xiazai_div{
+	margin-right: 40px;
+}
+.download_frame{
+	width: 570px;
+	height: 326px;
+	border: 1px solid #9a9ea2;
+	position: fixed;
+	bottom: 30%;
+	left: 32%;
+	background-color: #fff;
+}
+.download_frame h3{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #d5d5d5;
+	background-color: #f6f6f6;
+	font-size: 18px;
+	padding-left: 20px;
+}
+.download_buttom>div{
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+}
+.download_buttom .div1{
+	width: 64px;
+}
+.download_buttom .div2{
+	width: 50px;
+	margin-left: 14px;
+}
+.download_frame .download_content .input_text{
+	width: 440px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #bebdbd;
+	padding-left: 10px;
+}
+.download_frame .download_content select{
+	width: 370px;
+	height: 24px;
+	border: 1px solid #b3bdbd;
+	padding-left: 10px;
+}
+.download_frame .download_content .liulan_btn{
+	width: 54px;
+	height: 24px;
+	border: 1px solid #bebdbd;
+	line-height: 24px;
+	font-size: 14px;
+	color: #333;
+	background-color: #f6f6f6;
+}
+.download_frame .download_content{
+	padding-top: 20px;
+	padding-bottom: 34px;
+}
+.download_frame .download_content .div_xshttp{
+	color: #6f6f6f;
+}
+.download_frame table{
+	width: 90%;
+	margin: 0 auto;
+}
+.download_frame table tr{
+	line-height: 52px;
+}
+.download_frame .download_buttom{
+	height: 50px;
+	line-height: 50px;
+	border-top: 1px solid #d5d5d5;
+	background-color: #f6f6f6;
+	padding-left: 350px;
+}
+/**************************shouye.html和ckgrxx.html样式结束*****************************/
+/**************************grxx_grwd_ygzp.html样式开始*****************************/
 
-
-
+.grxxxq_title{
+	height: 50px;
+	line-height: 50px;
+}
+.grxxxq_title span{
+	padding-left: 40px;
+	background: url(../images/employee/png_5.png) 20px center no-repeat;
+	font-size: 14px;
+}
+.grxxxq_ul{
+	margin: 0 auto;
+}
+.grxxxq_ul>ul{
+	padding-left: 20px;
+}
+.grxxxq_ul li{
+	margin: 10px 20px;
+}
+/**************************grxx_grwd_ygzp.html样式结束*****************************/
+/**************************gxsc.html 开始***************************/
+.upload_content{
+	width: 1200px;
+	/*min-height: 400px;*/
+	margin: 0 auto;
+}
+.upload_content table{
+	width: 100%;
+	background-color: #fff;
+}
+.upload_content table tr{
+	height: 50px;
+	line-height: 50px;
+}
+.upload_content table thead tr{
+	font-weight: bold;
+}
+.upload_content table tbody .bg_fbfbfb, .upload_content table thead tr{
+	background-color: #fbfbfb;
+}
+.upload_content table tr td{
+	border-bottom: 1px solid #e7e7e7;
+}
+.upload_content table tr .upload_tpmc{
+	padding-left: 40px;
+}
+.upload_content table tr .upload_img{
+	margin-right: 40px;
+	width: 40px;
+	height: 40px;
+}
+.upload_content .upload_tpmc_43790e{
+	color: #43790e;
+}
+.upload_content .upload_tpmc_click{
+	cursor: pointer;
+	padding: 10px 0;
+}
+.upload_content table tr .upload_img_del{
+	background: url(../images/employee/png_9.png) 15px 13px no-repeat;
+	cursor: pointer;
+}
+.upload_content table tr .upload_img_fin{
+	background: url(../images/employee/png_7.png) 15px 13px no-repeat;
+	cursor: pointer;
+}
+.upload_content .gxsc_buttom_btn{
+	width: 300px;
+	margin: 0 auto;
+	padding: 30px 0 50px 0;
+}
+.gxsc_show_img{
+	width: 320px;
+	height: 420px;
+	padding: 30px;
+	background-color: #f9f9f9;
+	border: 1px solid #43790e;
+	position: fixed;
+	left: 25%;
+	bottom: 10%;
+}
+.gxsc_show_img img{
+	width: 100%;
+	height: 100%;
+}
+.gxsc_show_img .show_img_bg{
+	width: 19px;
+	height: 19px;
+	background: url(../images/employee/chahao.png) 0 0 no-repeat;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+.gxsc_scxx_zhegai{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+}
+.gxsc_scxx_div{
+	width: 570px;
+	position: fixed;
+	left: 33%;
+	bottom: 10%;
+	background-color: #fff;
+	z-index: 20;
+}
+.gxsc_scxx_div h4{
+	height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #43970e;
+	padding-left: 20px;	
+	font-weight: normal;
+}
+.gxsc_scxx_div ul{
+	padding: 0 20px;
+	height: 380px;
+	overflow: auto;
+}
+.gxsc_scxx_div ul li{
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	font-size: 14px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.gxsc_scxx_div ul .bg_fbfbfb{
+	background-color: #fbfbfb;
+}
+.gxsc_scxx_div .scxx_div_foot{
+	height: 50px;
+	border-top: 1px solid #ececec;
+	background-color: #fbfbfb;
+	padding-left: 20px;
+	margin-top: 10px; 
+}
+.gxsc_scxx_div .scxx_div_foot .employee_button1{
+	width: 54px;
+	height: 26px;
+	line-height: 26px;
+	background-color: #52cf47;
+	margin: 10px 20px 0 0; 
+	font-size: 12px;
+}
+/**************************gxsc.html 结束***************************/
 
 
 

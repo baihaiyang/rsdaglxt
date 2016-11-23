@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>人事档案管理系统</title>
+<link rel="stylesheet" type="text/css" href="../styles/s1/css/reset.css">
+<link rel="stylesheet" type="text/css" href="../styles/s1/css/manage.css">
+<script type="text/javascript" src="../common/js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+	<div class="rygl_tab">
+		<ul class="clear">
+			<li class="left rygl_tab_active"><a target="rygl_iframe" href="cxtj_tj.html">统计</a></li>
+			<li class="left"><a target="rygl_iframe" href="cxtj_rz.html">日志</a></li>
+			<li class="left"><a target="rygl_iframe" href="cxtj_bb.html">报表</a></li>
+		</ul>
+	</div>
+	<div class="rygl_iframe">
+		<iframe src="cxtj_tj.html" frameborder="0" scrolling="yes" width="100%" height="100%" name="rygl_iframe"></iframe>
+	</div>
+</body>
+<script type="text/javascript">
+	$(function(){
+		// 页面高度
+		function setIfrmae2(){
+			var rygl_iframe_h = $(window).height() - $(".rygl_tab").height()-10;
+			$(".rygl_iframe").height(rygl_iframe_h);
+		}
+		setIfrmae2();
+		$(window).resize(setIfrmae2);
+
+		//点击a标签更改页面
+		$('.rygl_tab li a').click(function(){
+			$(this).parent().addClass('rygl_tab_active');
+			$(this).parent().siblings().removeClass('rygl_tab_active');
+		});
+	});
+</script>
+</html>
